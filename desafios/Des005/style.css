@@ -28,6 +28,7 @@ header h1 {
     padding-top: 50px;
     
 }
+
 header p {
     font-family: 'Passion One';
     font-weight: 100;
@@ -40,6 +41,11 @@ header a {
     text-decoration: none;
     color: white;
 }
+
+header a:hover {
+    text-decoration: underline;
+}
+
 
 section {
     padding: 10vh 0vh;
