@@ -79,6 +79,7 @@ main {
     background-color: white;
     padding: 20px;
 
+
     min-width: 320px;
     max-width: 800px;
     margin: auto;
@@ -89,7 +90,7 @@ img {
 }
 .video{
     background-color: #175C34;
-    padding: 10px;
+    padding: 15px;
     margin: 0px -10px;
     display: block;
     width: 56,25%;
@@ -107,9 +108,9 @@ aside > h2 {
     border-radius: 10px 10px 0px 0px;
 }
 aside > p {
-    padding: 5px;
+    padding: 13px;
     text-align: justify;
-    line-height: 1em;
+    line-height: 1.4em;
 }
 aside > ul {
     list-style-type: '\2714\00A0\00A0';
@@ -121,6 +122,7 @@ aside > ul {
     background-color: #80E1AA;
     padding: 10px;
     border-radius: 10px;
+    margin-top: 12px;
     
  }  
 footer {
