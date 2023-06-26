@@ -52,6 +52,12 @@ header {
     background-image: linear-gradient(to bottom, #31AE68,#288D55, #1A5C38);
 }
 
+mark {
+    background-color: #175C34;
+    color: white;
+    padding: 1px;
+}
+
 main > h1 {
     background-color: white;
     font-family: 'android', sans-serif;
