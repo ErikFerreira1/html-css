@@ -7,7 +7,6 @@ html, body {
     height: 100vh;
     width: 100vw;
     
-    background-image: url(imagens/fundo-madeira.jpg);
     background: black url(imagens/fundo-madeira.jpg) center center no-repeat fixed;
     background-size: cover;
    
@@ -38,13 +37,26 @@ iframe#tela {
     height: 471px;
     width: 268px;
 }
+section#redes-sociais {
+    position: fixed;
+    top: 0;
+    right: 0;
+    
+    
+}
 
 section#redes-sociais img {
     width: 50px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.404);
+    box-sizing: border-box;
 }
 
+section#redes-sociais img:hover {
+    border: 2px solid white;
+    
+
+}
 
 
