@@ -2,9 +2,9 @@
 
 /*
     cores
-        #B95446
-        #E87268
-        #FB9187
+        #D907E4
+        #915DF0
+        #00DBDF
         #0E0E0E
 */
 
@@ -14,18 +14,24 @@
     padding: 0px;
 }
 html, body {
-    background-image: linear-gradient(to bottom,#E87268,#FB9187);
+    background-image: linear-gradient(45deg,#D907E4,#915DF0, #00DBDF);
     background-attachment: fixed;
    
 }
 
 
 section#login {
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    left: 50%;
+    
     background-color: white;
     width: 400px;
-    margin: auto;
-    
     
     text-align: center;
 
 }
+
+
+
