@@ -14,34 +14,37 @@
 <body>
     <main>
         <section id="login">
-            <div id="imagem">
-                
-            </div>
             <div id="formulario">
                 <h1>Login</h1>
             </div>
             <form action="login.php" method="post" autocomplete="on">
                 <p>
-                    <label id="icon" for="iemail"><span class="material-symbols-outlined">
+                    <label  for="iemail"><span id="icon" class="material-symbols-outlined">
                         Mail
                         </span></label>
-                    <input type="email" name="email" id="iemail" autocomplete="email" required placeholder="Digite seu e-mail">
+                    <input type="email" name="email" id="iemail" autocomplete="email" required placeholder=" Digite seu e-mail">
                 </p>
                 <p>
-                    <label for="isenha"><span class="material-symbols-outlined">
+                    <label for="isenha"><span id="icon" class="material-symbols-outlined">
                         lock
                         </span>
                     </label>
-                    <input type="password" name="senha" id="isenha" min="8" required placeholder="Digite sua senha">
+                    <input type="password" name="senha" id="isenha" min="8" required placeholder=" Digite sua senha">
                 </p>
+                
                 <p>
                     <input id="entrar" type="submit" value="Entrar">
                 </p>
+               
                 <p>
                     <a href="#">Esqueci minha senha</a>
                 </p>
             </form>
-            
+            <div id="imagens">
+                <p>Entre com</p>
+                    
+                    <a href=""><img id="google" src="img/2991148.png" alt="google"></a>
+            </div>
         </section>
     </main>
 </body>
