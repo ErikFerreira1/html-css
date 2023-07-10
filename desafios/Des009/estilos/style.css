@@ -94,9 +94,10 @@ form p {
 
     cursor: pointer;
 }
+
 #entrar:hover {
     color: black;
-    transition-duration: 0.4s;
+    transition-duration: 1s;
 }
 
 form > p > a {
@@ -115,12 +116,11 @@ form > p > a:hover {
     font-size: 0.8em;
     cursor: default;
 }
+
 #imagens > a > img {
     width: 45px;
     height: 45px;
     padding: 15px;
-
-    
 }
 
 
